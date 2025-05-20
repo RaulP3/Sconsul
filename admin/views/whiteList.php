@@ -37,7 +37,7 @@
         $pagina == "eqTypeList" ||
         $pagina == "eqTypeEdit" ||
         $pagina == "eqTypeDel" ||
-//        $pagina == "clientAdd" ||
+        $pagina == "vClienteAdd" ||
 //        $pagina == "clientDel" ||
 //        $pagina == "clientEdit" ||
 //        $pagina == "clientList" ||

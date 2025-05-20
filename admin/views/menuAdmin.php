@@ -55,26 +55,26 @@
 				</ul>
 			</li>
 
-			<!-- Médicos 
-			<li class="slide <?php  if ($pagina == 'vMedicoAdd' || $pagina == 'vMedicoList' || $pagina == 'vMedicoEdit' ) echo 'is-expanded'; ?>">
+			<!-- Clientes -->
+			<li class="slide <?php  if ($pagina == 'vClienteAdd' || $pagina == 'vClienteList' || $pagina == 'vClienteEdit' ) echo 'is-expanded'; ?>">
 				<a class="side-menu__item 
-					<?php if ($pagina == 'vMedicoAdd' || $pagina == 'vMedicoList' ) 
+					<?php if ($pagina == 'vClienteAdd' || $pagina == 'vClienteList' ) 
 							echo 'active'; ?>" data-toggle="slide" href="#">
 							<i class="side-menu__icon icon icon-people"></i>
-							<span class="side-menu__label">Médicos</span>
+							<span class="side-menu__label">Clientes</span>
 							<i class="angle fa fa-angle-right"></i>
 				</a>
 				<ul class="slide-menu">
 					<li><a class="slide-item 
-						<?php if ($pagina == 'vMedicoAdd') 
-								echo 'active'; ?>" href="index.php?page=vMedicoAdd">Agregar</a>
+						<?php if ($pagina == 'vClienteAdd') 
+								echo 'active'; ?>" href="index.php?page=vClienteAdd">Agregar</a>
 					</li>
 					<li><a class="slide-item 
-						<?php if ($pagina == 'vMedicoList') 
-								echo 'active'; ?>" href="index.php?page=vMedicoList">Lista</a>
+						<?php if ($pagina == 'vClienteList') 
+								echo 'active'; ?>" href="index.php?page=vClienteList">Lista</a>
 					</li>
 
 				</ul>
-			</li>-->
+			</li>
 
 	</ul>
