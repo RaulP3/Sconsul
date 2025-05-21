@@ -165,8 +165,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombres`, `apellidos`, `telefono`, `email`, `password`, `permisos`, `foto`, `estado`, `ultimoLogin`, `fechaNac`, `costoConsulta`) VALUES
-(1, 'Raul', 'Prieto', '6251221414', 'raul@gmail.com', '$2y$10$0tYao9luuBbQaOTGYINkgOFMtGDPkKOaSSZ7Zbqv7QDqrk9GKc9WC', 'medico', 'assets/images/faces/1.jpg', '1', NULL, '1985-12-12', 0),
-(13, 'Ricardo', 'Urbina Najera', '6251221438', 'r@gmail.com', '$2y$10$4NxyweuG8QF71A7ch6zvleuaxTz2MFeeWaiN8Z6NF.B/9AVge/GAe', 'admin', 'assets/images/faces/1.jpg', '1', '0000-00-00 00:00:00', '1991-09-27', 0),
+(13, 'Raul', 'Prieto', '6251221438', 'r@gmail.com', '$2y$10$4NxyweuG8QF71A7ch6zvleuaxTz2MFeeWaiN8Z6NF.B/9AVge/GAe', 'admin', 'assets/images/faces/1.jpg', '1', '0000-00-00 00:00:00', '1991-09-27', 0),
 (34, 'Pedro', 'Perez', '6251221438', 'p@gmail.com', '$2y$10$N/kd.YltwoV3GDS9G1A9.O02QemmpyTJARFFLn/uv9JM4OkTtaR.u', 'asistente', NULL, '1', NULL, '1985-12-13', 0),
 (35, 'Olaf', 'Urbina', '6251236677', 'o@gmail.com', '$2y$10$poQf34C4arEKfuwCEx18P.jyUSsoQObG0DyKukCwvJgkXXWA8PYri', 'medico', NULL, '1', NULL, '2022-12-11', 0),
 (36, 'Jose', 'Urbina', '6251221438', 'j@gmail.com', '$2y$10$wuxpr0qyKTf1xmMqGW2XAu0mm2PElpd/BNm5ULTyscXn0ijzBb8vS', 'medico', NULL, '1', NULL, '1975-12-14', 500);

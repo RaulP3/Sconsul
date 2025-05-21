@@ -7,6 +7,7 @@ require_once "../controller/cConPacientes.php";
 require_once "../controller/cConMedicos.php";
 require_once "../controller/cConCitas.php";
 require_once "../controller/comunController.php";
+require_once "../admin/views/inicio.php";
 
 
 

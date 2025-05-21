@@ -42,7 +42,7 @@ include_once "models/ingreso.php";
 				</span>
 				<form class="login100-form validate-form p-b-33 p-t-5" method="POST">
 
-					<div class="wrap-input100 validate-input" data-validate = "Fatlta su usuario">
+					<div class="wrap-input100 validate-input" data-validate = "Falta su usuario">
 						<input class="input100" type="text" name="usuarioIngreso" placeholder="User name">
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
