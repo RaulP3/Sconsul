@@ -102,8 +102,10 @@
                     <div class="card-footer text-right">
                         <button type="submit" id="login" class="btn btn-primary">Registrar</button>
                     </div>
+                    
+                    
                     <?php
-                    $registro = new pacientes();
+                    $registro = new clientes();
                     $registro->ctrRegistra();
                     ?>
         </form>
